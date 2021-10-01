@@ -9,4 +9,4 @@ struct node *link; //CLL
 
 extern struct node *head,*currentnode,*newnode; // insert
 
-extern struct node *odd,*temp,*append,*head; //delete
+extern struct node *new_head,*tmp,*new_head1; //delete
