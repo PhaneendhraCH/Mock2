@@ -11,6 +11,10 @@
 void display(){
 	struct node *temp;
 	temp = head;
+	 if (temp==NULL){
+        printf("\nNo nodes");
+        return;
+    }
 	while(temp!=NULL){
 		printf("%d ",temp->nested->pid);
 	
@@ -29,8 +33,8 @@ int main(){
 	insert(4);
 	insert(5);
 	display();
-	//delete_odd();
-	//display();
+	delete_odd();
+	display();
 	
 }
 
